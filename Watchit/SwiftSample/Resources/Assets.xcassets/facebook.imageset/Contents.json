@@ -1,0 +1,12 @@
+{
+  "images" : [
+    {
+      "filename" : "facebook-circular-logo.svg",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

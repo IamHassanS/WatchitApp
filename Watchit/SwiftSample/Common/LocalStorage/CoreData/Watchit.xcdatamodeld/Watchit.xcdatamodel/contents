@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="20086" systemVersion="21G816" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Film" representedClassName="Film" syncable="YES">
+        <attribute name="movieDescription" optional="YES" attributeType="String"/>
+        <attribute name="movieGenre" optional="YES" attributeType="String"/>
+        <attribute name="movieID" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="movieImageurl" optional="YES" attributeType="Binary" allowsExternalBinaryDataStorage="YES"/>
+        <attribute name="movieName" optional="YES" attributeType="String"/>
+        <attribute name="movieReleaseDate" optional="YES" attributeType="String"/>
+        <attribute name="movieUpvotePopularity" optional="YES" attributeType="String"/>
+        <relationship name="films" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Films" inverseName="film" inverseEntity="Films"/>
+    </entity>
+    <entity name="Films" representedClassName="Films" syncable="YES">
+        <attribute name="name" optional="YES" attributeType="String"/>
+        <relationship name="film" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Film" inverseName="films" inverseEntity="Film"/>
+    </entity>
+    <elements>
+        <element name="Film" positionX="160" positionY="192" width="128" height="149"/>
+        <element name="Films" positionX="160" positionY="192" width="128" height="59"/>
+    </elements>
+</model>

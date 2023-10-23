@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>App_URL</key>
+	<string>https://api.themoviedb.org/3/</string>
+	<key>Image_URL</key>
+	<string>https://image.tmdb.org/t/p/original</string>
+	<key>CFBundleURLTypes</key>
+	<array>
+		<dict>
+			<key>CFBundleTypeRole</key>
+			<string>Editor</string>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>com.googleusercontent.apps.765968841202-mrc7k1hq7ba8q3254fqitlim8aec2b3q</string>
+			</array>
+		</dict>
+	</array>
+	<key>ThemeColors</key>
+	<dict>
+		<key>CovidSheildColor</key>
+		<string>35af00</string>
+		<key>FavoriteColor</key>
+		<string>ff7272</string>
+		<key>GuestDarkThemeColor</key>
+		<string>00464d</string>
+		<key>GuestThemeColor</key>
+		<string>00A699</string>
+		<key>HostThemeColor</key>
+		<string>FF5A5F</string>
+		<key>InstantBookColor</key>
+		<string>ffb300</string>
+	</dict>
+	<key>UIApplicationSceneManifest</key>
+	<dict>
+		<key>UIApplicationSupportsMultipleScenes</key>
+		<false/>
+		<key>UISceneConfigurations</key>
+		<dict>
+			<key>UIWindowSceneSessionRoleApplication</key>
+			<array>
+				<dict>
+					<key>UISceneConfigurationName</key>
+					<string>Default Configuration</string>
+					<key>UISceneDelegateClassName</key>
+					<string>$(PRODUCT_MODULE_NAME).SceneDelegate</string>
+					<key>UISceneStoryboardFile</key>
+					<string>Main</string>
+				</dict>
+			</array>
+		</dict>
+	</dict>
+</dict>
+</plist>
